@@ -17,10 +17,10 @@
 
     ?>
 
-    <form method="get">
+    <form method="get" class = "form">
     <input class="caixasDeTexto" type="hidden" name="p" value="form3">
     <label>Insira o numero no qual voce deseja que o <br> sistema exiba uma lista em ordem crescente: </label> 
-    <input class="caixasDeTexto" type="number" name="Numero" placeholder=""> <br> <br>
+    <input class="caixasDeTexto" type="number" name="Numero" placeholder="Digite "> <br> <br>
     <input id="btForm3" type="submit">
 </form>
 

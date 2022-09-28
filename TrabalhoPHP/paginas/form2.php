@@ -35,7 +35,7 @@
     }
 ?>
 
-<form method="get">
+<form method="get" class = "form">
     <input type="hidden" name="p" value="form2">
     <label>Numero 1: </label> 
     <input class="caixasDeTexto" type="number" name="PrimeiroNumero" placeholder="dfe98wa"> <br>

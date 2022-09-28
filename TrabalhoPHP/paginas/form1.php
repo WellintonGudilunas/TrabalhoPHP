@@ -26,19 +26,31 @@
         }
     } 
     ?>
-<form method="get">
-    <input type="hidden" name="p" value="form1">
-    <label>Idade: </label> 
-    <input class="caixasDeTexto" type="number" name="idade" placeholder="Insira sua idade"> <br>
+<form method="get" class = "form">
+    <table>
+            <input type="hidden" name="p" value="form1">
+            <tr>
+                <td><label>Idade: </label> </td>
+                <td><input class="caixasDeTexto" type="number" name="idade" placeholder="Insira sua idade"></td> <br>
+            </tr>
+            <tr>
+                <td><label>País: </label></td>
+                <td><input class="caixasDeTexto" type="text" name="pais" placeholder="Insira seu País"></td><br>
+            </tr>
 
-    <label>País: </label>
-    <input class="caixasDeTexto" type="text" name="pais" placeholder="Insira seu País"> <br> 
+            <tr>
+                <td><label>Estado: </label></td>
+                <td><input class="caixasDeTexto" type="text" name="estado" placeholder="Insira seu estado"></td>
+            </tr> <br>
 
-    <label>Estado: </label>
-    <input class="caixasDeTexto" type="text" name="estado" placeholder="Insira seu estado"> <br>
+            <tr>
+                <td><label>Cidade: </label></td>
+                <td><input class="caixasDeTexto" type="text" name="cidade" placeholder="Insira sua cidade"></td>
+            </tr> <br>
 
-    <label>Cidade: </label>
-    <input class="caixasDeTexto" type="text" name="cidade" placeholder="Insira sua cidade"> <br>
-
-    <input id="btForm1"  type="submit">
+            <tr>
+                <td><input id="btForm1"  type="submit"></td>
+            </tr>
+       
+    </table>
 </form>

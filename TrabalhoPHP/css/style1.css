@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(254, 220, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 3px;
+
+}
+.form {
+    margin-top: 1px     ;
+}
+.caixasDeTexto {
+    background-color: rgb(214, 152, 255);
+    margin: 3px;
+    width: 120px;
+
+}
+.caixasDeTexto:hover  {
+    background-color: rgb(255, 255, 255);
+}
+
+#btForm1 {
+    background-color: rgb(255, 255, 255);
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#btForm1:hover {
+    background-color: rgb(139, 226, 169);
+}
+
+#btForm2 {
+    background-color: rgb(255, 255, 255);
+}
+#btForm2:hover {
+    background-color: rgb(139, 226, 169);
+}
+#btForm3 {
+    background-color: rgb(255, 255, 255);
+}
+#btForm3:hover {
+    background-color: rgb(139, 226, 169);
+}
+
