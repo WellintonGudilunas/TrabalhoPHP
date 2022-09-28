@@ -32,6 +32,7 @@
         if($_GET["QuartoNumero"] == ""){
             echo "---AVISO--- Preencha o quarto campo<hr>";
         }
+    }
 ?>
 
 <form method="get">
