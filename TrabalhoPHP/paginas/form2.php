@@ -38,16 +38,16 @@
 <form method="get">
     <input type="hidden" name="p" value="form2">
     <label>Numero 1: </label> 
-    <input type="number" name="PrimeiroNumero" placeholder="Insira o primeiro numero: "> <br>
+    <input class="caixasDeTexto" type="number" name="PrimeiroNumero" placeholder="dfe98wa"> <br>
 
     <label>Numero 2: </label>
-    <input type="number" name="SegundoNumero"> <br> 
+    <input class="caixasDeTexto" type="number" name="SegundoNumero"> <br> 
 
     <label>Numero 3: </label>
-    <input type="number" name="TerceiroNumero"> <br>
+    <input class="caixasDeTexto" type="number" name="TerceiroNumero"> <br>
 
     <label>Numero 4: </label>
-    <input type="number" name="QuartoNumero"> <br>
+    <input class="caixasDeTexto" type="number" name="QuartoNumero"> <br>
 
-    <input type="submit">
+    <input id="btForm2" type="submit">
 </form>

@@ -24,23 +24,21 @@
         if($_GET["cidade"] == ""){
             echo "---AVISO--- Preencha a sua cidade<hr>";
         }
-        
-
     } 
     ?>
 <form method="get">
     <input type="hidden" name="p" value="form1">
-    <label>Idade </label> 
-    <input type="number" name="idade" placeholder="Insira sua idade:"> <br>
+    <label>Idade: </label> 
+    <input class="caixasDeTexto" type="number" name="idade" placeholder="Insira sua idade"> <br>
 
-    <label>País </label>
-    <input type="text" name="pais"> <br> 
+    <label>País: </label>
+    <input class="caixasDeTexto" type="text" name="pais" placeholder="Insira seu País"> <br> 
 
-    <label>Estado </label>
-    <input type="text" name="estado"> <br>
+    <label>Estado: </label>
+    <input class="caixasDeTexto" type="text" name="estado" placeholder="Insira seu estado"> <br>
 
-    <label>Cidade </label>
-    <input type="text" name="cidade"> <br>
+    <label>Cidade: </label>
+    <input class="caixasDeTexto" type="text" name="cidade" placeholder="Insira sua cidade"> <br>
 
-    <input type="submit">
+    <input id="btForm1"  type="submit">
 </form>

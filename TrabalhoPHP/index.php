@@ -1,3 +1,4 @@
+<!--Wellinton Rafael Gudilunas e Sabrine Gabriela de Quadros-->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -31,7 +32,8 @@
                 require_once("./paginas/form3.php");
             break;
             default: 
-                require_once("./paginas/home.php"); break;
+                require_once("./paginas/home.php");
+            break;
 
         }
     ?>
