@@ -17,7 +17,7 @@
         $vezes = $a * $b * $c * $d;
         echo "<br> A soma entre $a, $b, $c e $d é: $soma";
         echo "<br> A subtração entre $a, $b, $c e $d é: $menos";
-        echo "<br> A multiplicação entre $a, $b, $c e $d é: $vezes";
+        echo "<br> A multiplicação entre $a, $b, $c e $d é: $vezes <hr>";
 
         //Verifica se a variável está vazia
         if($_GET["PrimeiroNumero"] == ""){

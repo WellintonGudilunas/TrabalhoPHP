@@ -8,9 +8,7 @@
     <title>Index</title>
     <link rel="stylesheet" href="css/style1.css">
     <style>
-        body {
 
-        }
     </style>
 </head>
     
