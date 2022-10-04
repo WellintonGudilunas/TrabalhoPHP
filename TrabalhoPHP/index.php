@@ -1,4 +1,4 @@
-<!--Wellinton Rafael Gudilunas e Sabrine Gabriela de Quadros-->
+<!--Ísis Gomes Fabiano Pereira, | Sabrine Gabriela de Quadros e | Wellinton Rafael Gudilunas-->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
