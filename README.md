@@ -1,2 +1,2 @@
 # TrabalhoPHP
- Arquivos usados no trabalho de PHP do segundo Semestre
+ Arquivos usados no trabalho / prova de PHP do segundo Semestre
